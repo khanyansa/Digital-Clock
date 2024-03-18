@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(#8b00b8, #9932cc);
+    opacity: 0.5;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.clock{
+    font-size: 3.5rem;
+    font-weight: bold;
+    font-family: monospace;
+    color: whitesmoke;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: (10px);
+    padding: 30px 40px;
+    border-radius: 10px;
+}
